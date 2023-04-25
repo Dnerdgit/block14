@@ -41,61 +41,133 @@ for (let l = 0; l < array4.length; l++) {
 console.log(odd4);
 
 /*Vowel vs Consonant */
-/*
+
 const word1 = "hello";
+let consos1 = 0;
+let voW1 = 0;
+
 const word2 = "ukelele"
+let consos2 = 0;
+let voW2 = 0;
+
 const word3 ="awesome";
+let consos3 = 0;
+let voW3 = 0;
+
 const word4 = "onomonopia";
+let consos4 = 0;
+let voW4 = 0;
+
 const word5 = "textbook";
-const consos1 = [];
-const consos2 = [];
-const consos3 = [];
-const consos4 = [];
-const consos5 = [];
-const vowels = ['a', 'e', 'i', 'o', 'u'];
-const voW1 = [];
-const voW2 = [];
-const vow3 = [];
-const vow4 = [];
-const vow5 = [];
+let consos5 = 0;
+let voW5 = 0;
+
+//const vowels = ['a', 'e', 'i', 'o', 'u'];//
+
 
 for (let i = 0; i < word1.length; i++) {
-  if (word1[i] === vowels) {
-    console.log(word1 + " has" + consos + " consonants and" + voW1 + " vowels")
+  const char = word1[i];
+
+  if (char === 'a' || 
+      char === 'e' || 
+      char === 'i' || 
+      char === 'o' || 
+      char === 'u'
+  ) {
+    voW1++;
+
+  } else {
+
+    consos1++;
   }
 
 }
+
+ console.log(word1 + " has " + consos1 + " consonants and " + voW1 + " vowels");
 
 for (let j = 0; j < word2.length; j++) {
-  if (word2[j] === vowels) {
-    console.log(word2 + " has" + consos + " consonants and" + voW2 + " vowels")
+  const char = word2[j];
+
+  if (char === 'a' || 
+      char === 'e' || 
+      char === 'i' || 
+      char === 'o' || 
+      char === 'u'
+  ) {
+    voW2++;
+
+  } else {
+
+    consos2++;
   }
 
 }
+
+ console.log(word2 + " has " + consos2 + " consonants and " + voW2 + " vowels");
+
+
 
 for (let k = 0; k < word3.length; k++) {
-  if (word3[k] === vowels) {
-    console.log(word3 + " has" + consos + " consonants and" + voW3 + " vowels")
+  const char = word3[k];
+
+  if (char === 'a' || 
+      char === 'e' || 
+      char === 'i' || 
+      char === 'o' || 
+      char === 'u'
+  ) {
+    voW3++;
+
+  } else {
+
+    consos3++;
   }
 
 }
+console.log(word3 + " has " + consos3 + " consonants and " + voW3 + " vowels");  
+
 
 for (let l = 0; l < word4.length; l++) {
-  if (word4[l] === vowels) {
-    console.log(wordl + " has" + consos + " consonants and" + voW4 + " vowels")
+  const char = word4[l];
+
+  if (char === 'a' || 
+      char === 'e' || 
+      char === 'i' || 
+      char === 'o' || 
+      char === 'u'
+  ) {
+    voW4++;
+
+  } else {
+
+    consos4++;
+
   }
 
 }
+console.log(word4 + " has" + consos4 + " consonants and " + voW4 + " vowels")
 
-for (let m = 0; i < word5.length; m++) {
-  if (word5[m] === vowels) {
-    console.log(word5 + " has" + consos + " consonants and" + voW5 + " vowels")
+
+for (let m = 0; m < word5.length; m++) {
+  const char = word5[m];
+
+  if (char === 'a' || 
+      char === 'e' || 
+      char === 'i' || 
+      char === 'o' || 
+      char === 'u'
+  ) {
+    voW5++;
+
+  } else {
+
+    consos5++;
   }
 
 }
+console.log(word5 + " has" + consos5 + " consonants and " + voW5 + " vowels")
 
 
-*/
 /*Reverse Array*/
 
 const num1 = [1, 2, 3];
